@@ -43,11 +43,6 @@ grid-template-columns: 1fr 1fr 1fr<<<<< uma fração de 100% (nesse caso 3 fraç
 
 
 
-
-
-
-
-
 ////////////////////////////////////////////////////////////////////////////
 
 diferença de busca do css:
@@ -79,3 +74,11 @@ Display inline: não pega o margin.. exemplo usado no margin-bottom
 
 se um a href="" for passado para um display block, toda a caixa passa  a ser um link, mesmo se não tiver letras no link.. para resolver esse problema use o display: inline-block; ele fará com o cursor aponte somente para a letra que está dentro  <a href="">link</a>
 
+//////
+/
+
+
+
+
+  opacity: 0; se usado somente ele some da tela o item, mas continua ocupando o espaço na tela por isso é necessário usar o visibility: hidden;
+    visibility: hidden; 
