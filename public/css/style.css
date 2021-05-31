@@ -3,7 +3,8 @@
     --dark-blue: #363f5f;
 }
 
-/* Jesus! */
+/*  */
+
 * {
 
 padding: 0;
@@ -11,6 +12,14 @@ margin: 0;
 box-sizing: border-box; /*amarra o padding dentro da caixa*/
 
 }
+
+html {
+
+
+    font-size: 93.75%;
+}
+
+
 
 
 body {
@@ -27,6 +36,7 @@ header {
     text-align: center;
     font-weight: 100;
  }
+ 
 /*Tricks CSS*/
 .sr-only {
 
@@ -49,6 +59,10 @@ border-width: 0;
    
    }
 
+
+/*Titles ============== */
+
+
 h2 {
 
 margin-top: 3.2rem;
@@ -56,6 +70,30 @@ margin-bottom: 0.2rem;
 color: var(--dark-blue);
 font-weight: normal;
 
+}
+
+/*Links & Buttons ============== */
+
+
+a {
+
+    color: #49aa26;
+    text-decoration: none;
+
+}
+
+a:hover {
+
+
+  color: #3dd705;
+  
+
+}
+
+.button.new {
+
+    margin-bottom: .8rem;
+    display: inline-block;
 }
 
 
@@ -92,6 +130,11 @@ margin-bottom: 2rem;
 
 }
 
+.card.green {
+
+    background: #49aa26;
+    color: white;
+}
 /*CARDS h3 p ============== */
 
 .card h3 {
@@ -121,7 +164,21 @@ line-height: 3rem;
 
     width: 100%;
 
+    border-spacing: 0 0.5rem;
+    
+
 }
+
+#transaction {
+
+width: 100%;
+display: block;
+overflow-x: auto;
+
+
+}
+
+
 
 table  tbody td {
 
@@ -181,6 +238,20 @@ border-radius: 0.25rem 0 0 0.25rem;
 }
 
 
+table thead tr th:last-child,
+table tbody tr td:last-child {
+
+border-radius:  0 0.25rem 0.25rem 0;
+
+}
+
+
+/*table IMG============== */
+
+
+
+
+
 /*FOOTER ============== */
 footer {
 
@@ -189,6 +260,38 @@ footer {
     color: var(--dark-blue);
     opacity: 0.6;
 }
+
+
+/*RESPONSIVE ============== */
+
+
+@media (min-width: 800px)  {
+
+html {
+
+    font-size: 87.5%;
+
+}
+
+#balance {
+
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+
+} 
+
+
+
+
+
+
+
+
+
 
 
 

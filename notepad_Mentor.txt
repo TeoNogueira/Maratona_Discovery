@@ -1,0 +1,81 @@
+/*
+
+técnica de pomodoro, 20 min de estudo e 5 de descanso
+
+# fazer conexões (um ponto bom para softskills)
+
+# participar da comunidade RocketSeat... etc.
+
+# mentalidade no aprendizado
+
+# descanso, alimentação, dormir bem, persistência
+
+# vença a síndrome do impostor: "Não sou tão bom quanto fulano.. etc..".
+
+
+*/
+
+// DISPLAY FLEX  tornar um ao lado do outro
+
+// display: flex; muda o comportamento dos elementos dentro da caixa DE CIMA PARA BAIXO... Ex: dentro de uma div
+
+///////////////////////////////////////////////////////////////////////////////
+
+align-items: center; << alinha os elementos um ao lado.. ex: se uma imagem tá ao lado de um texto e essa imagem estiver um pouco pra baixo, ela será alinhada com o texto (estará na mesma reta)
+
+// class css
+
+////////////////////////////////////////////////////////////////////////////
+
+DISPLAY GRID
+
+trabalha horizontal e vertical;
+
+
+gap: ; <<<<  SIGNIFICA ESPAÇO ENTRE AS COLUNAS DO GRID
+
+grid-template-columns: 1fr 1fr 1fr<<<<< uma fração de 100% (nesse caso 3 frações aproximandamente cada uma pega 33%  de  100%)
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////
+
+diferença de busca do css:
+
+MESMA CAIXA:
+
+.button.new { quero que uma caixa tenha button e new pegando os dois
+
+
+}
+
+
+/////////////////////////////////
+UMA CAIXA DENTRO DE UMA CAIXA:
+
+.button .new { 
+    
+    quero que em uma caixa pegue outra caixa que tenha new
+    
+}
+
+--------------x------------------------
+
+
+Display inline: não pega o margin.. exemplo usado no margin-bottom
+
+
+------
+
+se um a href="" for passado para um display block, toda a caixa passa  a ser um link, mesmo se não tiver letras no link.. para resolver esse problema use o display: inline-block; ele fará com o cursor aponte somente para a letra que está dentro  <a href="">link</a>
+
