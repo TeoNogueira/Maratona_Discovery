@@ -82,3 +82,13 @@ se um a href="" for passado para um display block, toda a caixa passa  a ser um 
 
   opacity: 0; se usado somente ele some da tela o item, mas continua ocupando o espaço na tela por isso é necessário usar o visibility: hidden;
     visibility: hidden; 
+    /////////////////////////////////////////////////
+
+CONF PARA ALINHAR OS ITENS AO CENTRO UM DO OUTRO, E JUSTIFY CONTENT PARA COLOCA-LOS NO MEIO DA CAIXA
+    display: flex;
+align-items: center;
+justify-content: center;
+
+~///////////////////////////////////////////////////
+
+POSITION destrava algumas funcionalidades, uma delas é o z-index
