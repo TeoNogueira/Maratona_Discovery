@@ -34,8 +34,8 @@ trabalha horizontal e vertical;
 
 gap: ; <<<<  SIGNIFICA ESPAÇO ENTRE AS COLUNAS DO GRID
 
-grid-template-columns: 1fr 1fr 1fr<<<<< uma fração de 100% (nesse caso 3 frações aproximandamente cada uma pega 33%  de  100%)
-
+grid-template-columns: 1fr 1fr 1fr<<<<< uma fração de 100% (nesse caso 3 frações aproximandamente cada uma pega 33%  de  100%);
+grid-template-rows: repeat(4, auto);  <<<<<<<<<<<< 4 frações em linha
 
 
 
